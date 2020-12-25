@@ -71,7 +71,7 @@ set CLASSPATH=%APP_HOME%\lib\sandbox.jar
 
 
 @rem Execute sandbox
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %SANDBOX_OPTS%  -classpath "%CLASSPATH%" World %*
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %SANDBOX_OPTS%  -classpath "%CLASSPATH%" HueWorld %*
 
 :end
 @rem End local scope for the variables with windows NT shell
